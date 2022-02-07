@@ -1,0 +1,48 @@
+.description {
+    font-size: 18px;
+    margin-left: 10px;
+}
+.todo-item {
+    display: flex;
+    align-items: center;
+    background-color: rgb(183, 166, 221);
+    max-width: 830px;
+    margin: auto;
+    border-bottom: #fff solid 1px;
+    color: white;
+}
+.todos__title {
+    font-size: 36px;
+    color: rgb(59, 5, 70);
+}
+.dotos__remuve {
+    font-size: 18px;
+    margin-left: auto;
+    padding: 20px 55px;
+    background: white;
+    border: none;
+    color: rgb(59, 5, 70);
+
+}
+.todo__item_add {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.todos__input{
+    border: none;
+    width: 636px;
+    padding: 20px 5px;
+  }
+.todos__add  {
+    padding: 19px 13px;
+    border: none;
+    color: white;
+    background: rgb(183, 166, 221);
+    font-size: 18px;
+  
+  }
+button {
+    cursor: pointer;
+  }
