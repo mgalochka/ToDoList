@@ -1,13 +1,13 @@
-.description {
+.todos__description {
     font-size: 18px;
     margin-left: 10px;
 }
-.todo__wrapper {
+.todos__wrapper {
     box-shadow: 0 3px 20px rgb(0 0 0 / 25%);
     width: 826px;
     margin: auto;
 }
-.todo-item {
+.todo__item {
     display: flex;
     align-items: center;
     background-color: rgb(183 166 221 / 43%);
@@ -20,15 +20,25 @@
     font-size: 36px;
     color: rgb(59, 5, 70);
 }
+.todo__checkbox {
+    border: none;
+    margin-right: 10px;
+}
+input {
+    outline:none;
+}
 .dotos__remuve {
     font-size: 18px;
     margin-left: auto;
-    padding: 20px 55px;
+    padding: 10px 75px;
     background: white;
     border:none;
     color: rgb(59, 5, 70);
     box-shadow: 0 3px 5px rgb(0 0 0 / 15%);
 
+}
+.todos__img {
+    width: 30px;
 }
 .todo__item_add {
     display: flex;
@@ -40,6 +50,7 @@
     border: none;
     width: 636px;
     padding: 20px 5px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 10%);
   }
 .todos__add  {
     padding: 19px 13px;
