@@ -76,11 +76,14 @@ const App = () =>{
   return (
     <div className="App">
       <h1 className='todos__title'>Мои задачи</h1>
-      <form onSubmit={hendleSabmit}>
-          <input className="todos__input" value={value} type='text' onChange={getValueInput}/> 
-          <button className='todos__add'>Добавить задание</button>
-      </form>
-      {todoItems.length ? finalTasks : <p className='todos__title'>У вас нет заданий на сегодня</p> }
+      <div className='todos__wrapper'>
+        <form onSubmit={hendleSabmit}>
+            <input className="todos__input" value={value} type='text' onChange={getValueInput}/> 
+            <button className='todos__add'>Добавить задание</button>
+        </form>
+        {todoItems.length ? finalTasks : <p className='todos__title'>У вас нет заданий на сегодня</p> }
+      </div>
+      
       
     </div>
   );
